@@ -294,18 +294,24 @@
             // 
             this.tablaForm.AllowUserToAddRows = false;
             this.tablaForm.AllowUserToDeleteRows = false;
+            this.tablaForm.AllowUserToResizeColumns = false;
+            this.tablaForm.AllowUserToResizeRows = false;
             this.tablaForm.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.tablaForm.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.tablaForm.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.tablaForm.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
             this.tablaForm.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.tablaForm.ColumnHeadersHeight = 29;
             this.tablaForm.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.tablaForm.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tablaForm.Location = new System.Drawing.Point(6, 299);
+            this.tablaForm.MultiSelect = false;
             this.tablaForm.Name = "tablaForm";
             this.tablaForm.ReadOnly = true;
             this.tablaForm.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.tablaForm.RowHeadersVisible = false;
             this.tablaForm.RowHeadersWidth = 51;
+            this.tablaForm.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.tablaForm.RowTemplate.Height = 24;
             this.tablaForm.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.tablaForm.Size = new System.Drawing.Size(835, 349);
